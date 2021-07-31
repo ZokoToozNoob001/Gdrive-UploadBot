@@ -7,7 +7,7 @@ class Config:
 
     # The Telegram API things
     # Get these values from my.telegram.org
-    APP_ID = int(os.environ.get("APP_ID", 5621814))
+    APP_ID = int(os.environ.get("APP_ID", "5621814"))
     API_HASH = os.environ.get("API_HASH", "1943024907:AAEa9xXCYJqUVT4BAQ6SmKhH07FS9eNBGvU")
 
      # Sql Database url
