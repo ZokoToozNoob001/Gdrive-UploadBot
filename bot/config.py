@@ -3,15 +3,15 @@ import os
 class Config:
 
     # get a token from @BotFather
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "1943024907:AAEa9xXCYJqUVT4BAQ6SmKhH07FS9eNBGvU")
 
     # The Telegram API things
     # Get these values from my.telegram.org
-    APP_ID = int(os.environ.get("APP_ID", 12345))
-    API_HASH = os.environ.get("API_HASH", "")
+    APP_ID = int(os.environ.get("APP_ID", "5621814"))
+    API_HASH = os.environ.get("API_HASH", "1943024907:AAEa9xXCYJqUVT4BAQ6SmKhH07FS9eNBGvU")
 
      # Sql Database url
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "postgres://npixdesnpmzwhi:fb0eb1d27d5def0a9aa19d98a1ae6f48d03664175440b17dc3b6492e243e6060@ec2-34-228-100-83.compute-1.amazonaws.com:5432/d45l41i6ojp26a")
 
     # the download location, where the HTTP Server runs
     DOWNLOAD_DIRECTORY = "./DOWNLOADS"
@@ -21,7 +21,7 @@ class Config:
     G_DRIVE_CLIENT_SECRET = os.environ.get("G_DRIVE_CLIENT_SECRET", "FxvbXbjuyr357e34fcj8")
     
     # Array to store users who are authorized to use the bot
-    AUTH_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "1317902438 1780440344 1834672955").split())
 
 
 class BotCommands:
